@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather';
+    
+}
+h1 {
+    color: #66bfbf;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.620rem;
+    margin: 50px auto 0px auto;
+   
+}
+
+h2 {
+    color: #66bfbf;
+    margin: 0px auto auto auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+
+}
+
+h3 {
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+}
+ h4 {
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+ }
+hr {
+    border-style: none;
+    border-top: dotted;
+    border-color:#eaeaf6f6;
+    border-width: 6px;
+    margin: 30px auto 30px auto;
+    width: 5%;
+}
+
+a {
+    color: #11999e;
+    margin: 10px 20px ;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+a:hover {
+    color: #BEE2F9;
+}
+/* navigation bar */
+.navbar {
+    padding: 25px 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Toggler button for .navbar */
+.navbar-toggler-icon {
+    background-origin: padding-box;
+    border-color: black;
+}
+
+/* for navigation items */
+
+.nav-link {
+    margin: 0px 10px 0px 10px;
+}
+
+/* for containers */
+
+.top-container {
+    background-color:  #e4f9f5;
+}
+.boy{
+    width: 30%;
+}
+
+.top-cloud {
+    position: relative;
+
+}
+
+.intro-top {
+    text-align: center;
+}
+
+/* Css rule for top conainer is ended */
+.text-hello {
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+
+
+/* Css rule for the skill section */
+
+.container-two {
+    text-align: center;
+    margin: 0px 100px;
+}
+
+.container-fluid {
+    padding: 0% 25%;
+    text-align: center  ;
+
+    
+}
+
+/*for images used in skills*/
+.skills-image {
+    width: 9rem;
+}
+
+.skills-image-2 {
+    width: 6rem;
+}
+
+/* for the skill name */
+.skill-name {
+    
+    margin-top: 1rem;
+    margin-left:5rem;
+    text-align: left;
+   
+}
+
+.skill-name-2 {
+    margin-top: 1rem;
+    margin-left: 30%;
+    
+    text-align: left;
+}
+
+.row {
+    margin-top: 2rem;
+}
+/*some extra styling used everywher*/
+
+.space-down {
+    margin-bottom: 40px;
+}
+
+
+
+/* hobbies section */
