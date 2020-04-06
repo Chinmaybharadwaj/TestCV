@@ -4,6 +4,8 @@ body{
     font-family: 'Merriweather';
     
 }
+
+
 h1 {
     color: #66bfbf;
     font-family: 'Sacramento', cursive;
@@ -49,7 +51,7 @@ a:hover {
 }
 /* navigation bar */
 .navbar {
-    padding: 25px 35px;
+   
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -119,15 +121,31 @@ a:hover {
     
     margin-top: 1rem;
     margin-left:5rem;
-    text-align: left;
+    position: relative;
+    right: 40px;
    
 }
 
+.sf {
+    margin-right: 4rem;
+}
 .skill-name-2 {
     margin-top: 1rem;
-    margin-left: 30%;
+    margin-left: 3rem;
     
     text-align: left;
+}
+
+@media (max-width: 1028px){
+    .skill-name {
+        margin-top: 1rem;
+        margin-left: 5rem;
+        text-align: left;
+    }
+
+    .skill-container {
+        text-align: center;
+    }
 }
 
 .row {
