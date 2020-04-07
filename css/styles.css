@@ -31,6 +31,10 @@ h3 {
     color: #11999e;
     font-family: 'Montserrat', sans-serif;
  }
+ h5 {
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+ }
 hr {
     border-style: none;
     border-top: dotted;
@@ -53,7 +57,10 @@ a:hover {
 .navbar {
    
     font-family: 'Montserrat', sans-serif;
+    padding:0px  0px ;
 }
+
+
 
 /* Toggler button for .navbar */
 .navbar-toggler-icon {
@@ -112,9 +119,7 @@ a:hover {
     width: 9rem;
 }
 
-.skills-image-2 {
-    width: 6rem;
-}
+
 
 /* for the skill name */
 .skill-name {
@@ -127,7 +132,8 @@ a:hover {
 }
 
 .sf {
-    margin-right: 4rem;
+    margin-left: 40px;
+    text-align: left;
 }
 .skill-name-2 {
     margin-top: 1rem;
@@ -136,7 +142,7 @@ a:hover {
     text-align: left;
 }
 
-@media (max-width: 1028px){
+@media (max-width: 1024px){
     .skill-name {
         margin-top: 1rem;
         margin-left: 5rem;
@@ -146,6 +152,20 @@ a:hover {
     .skill-container {
         text-align: center;
     }
+    
+    .sf {
+        margin-left: auto;
+        text-align: center;
+    }
+
+    .feature-box {
+        margin-top: 30px;
+    }
+
+    .myStyle-center {
+        text-align: center;
+    }
+
 }
 
 .row {
@@ -157,6 +177,54 @@ a:hover {
     margin-bottom: 40px;
 }
 
-
-
+/* project section */
+.card {
+    margin: 20px auto;
+}
+  
 /* hobbies section */
+.skills-image-2 {
+    width: 6rem;
+}
+
+
+/*footer part */
+.myAlign-center {
+    text-align: center;
+}
+
+
+/* annimations */
+
+@-webkit-keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+  }
