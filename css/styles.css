@@ -144,8 +144,8 @@ a:hover {
 
 @media (max-width: 1024px){
     .skill-name {
-        margin-top: 1rem;
-        margin-left: 5rem;
+        margin-top: 20px;
+        margin-left: 30px;
         text-align: left;
     }
 
